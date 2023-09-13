@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora de factores de Interes Compuesto</h1>
+    <h2>Ingenieria Economica</h2>
+    <div class="container">
+        <div class="div-form">
+        <form action="#" class="formulario" id="formulario">
+            <label for="factor">Escoja el factor:</label>
+            <select name="factor" id="factor">
+                <option value="f/p">F/P</option>
+                <option value="p/f">P/F</option>
+                <option value="p/a">P/A</option>
+                <option value="a/p">A/P</option>
+                <option value="a/f">A/F</option>
+                <option value="f/a">F/A</option>
+            </select>
+            <br>
+            <label for="monto" id="encontrar">Ingrese el monto:</label>
+            <input type="text" name="monto" id="monto" placeholder="Solo agregue numeros..."><br>
+            <span class="error "id="errormonto"></span>
+            <br>
+            <label for="tasa">Ingrese la tasa de interes:</label>
+            <input type="text" name="tasa" id="tasa" placeholder="Solo agregue numeros..."><br>
+            <span class="error" id="errortasa"></span>
+            <br>
+            <label for="periodo">Ingrese la cantidad de tiempo en años:</label>
+            <input type="text" name="periodo" id="periodo" placeholder="Solo agregue numeros..."><br>
+            <span class="error" id="errorperiodo"></span>
+            <br>
+            <button type="submit" class="btn" id="btnCalcular">Calcular</button>
+            <button type="button" class="btn" id="btnTabla">Ver Tabla</button>
+        </form>
+        </div>
+
+        <div class="respuesta" id="respuesta"></div>
+        <div class="tabla"></div>     
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

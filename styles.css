@@ -1,0 +1,176 @@
+body{
+    background-image: url(./img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    text-align: center;
+    color:black;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    padding: 5px;
+}
+.formulario{
+    text-align: left;
+}
+select{
+    cursor: pointer;
+}
+.btn {
+    display: inline-block;
+    padding: 5px; /* Espaciado interno para el botón */
+    background-color: #25d870; /* Color de fondo del botón */
+    color: black; /* Color del texto del botón */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Borde redondeado */
+    text-align: center; /* Alinea el texto al centro del botón */
+    text-decoration: none; /* Elimina subrayado predeterminado para enlaces */
+    font-weight: bold; 
+    font-size: 16px; /* Tamaño de fuente del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Cambia el color de fondo en el hover */
+  }
+  
+
+.respuesta{
+    color:#fff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: 5px ;
+    width: 47%;
+    padding: 15px;
+}
+.tabla{
+    background-color: #333333d7;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px auto ;
+    width: 60%;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.div-form{
+    background-color: #333333d7;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px ;
+    width: 47%;
+    padding: 5px;
+}
+/* Estilo básico de la tabla */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid #ddd; /* Borde de la tabla */
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo de las celdas encabezadas */
+  th {
+    background-color: rgb(63, 141, 231); /* Color de fondo del encabezado */
+    text-align: center;
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde de las celdas encabezadas */
+    width: auto;
+  }
+  
+  /* Estilo de las celdas de datos */
+  td {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde de las celdas de datos */
+    width: auto;
+  }
+/* Estilo básico para input de tipo texto */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #064a92;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo cuando el input está enfocado */
+  input[type="text"]:focus {
+    outline: none; /* Quita el contorno predeterminado del enfoque */
+    border-color: #007BFF; /* Cambia el color del borde al enfocar */
+  }
+  
+  
+  /* Estilo para el placeholder */
+  input[type="text"]::placeholder {
+    color: rgba(0, 0, 0, 0.856); /* Cambia el color del texto del placeholder */
+  }
+/* Estilo básico para el elemento select */
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #064a92; /* Cambia el color de fondo */
+    width: 60%; /* Opcional: haz que el select ocupe todo el ancho disponible */
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para las opciones dentro del select */
+  select option {
+    font-size: 14px;
+    background-color: #fff; /* Cambia el color de fondo de las opciones */
+    color: #333; /* Cambia el color del texto de las opciones */
+  }
+  
+  /* Estilo para el select cuando está enfocado */
+  select:focus {
+    outline: none; /* Quita el contorno predeterminado del enfoque */
+    border-color: #007BFF; /* Cambia el color del borde al enfocar */
+  }
+/* Estilo básico para etiquetas label */
+label {
+    display: block; /* Hace que las etiquetas se muestren en bloques, una debajo de la otra */
+    margin-bottom: 2px; /* Espacio inferior entre etiquetas */
+    font-weight: bold; /* Hace que el texto de la etiqueta sea negrita */
+    font-size: 19px;
+    color: #eee; /* Color de texto */
+  }
+  .error {
+    color: red; /* Color de texto rojo */
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px; /* Tamaño de fuente */
+  }
+  
+  
+  /* Estilo para etiquetas label cuando el input está enfocado */
+  input:focus + label {
+    color: #007BFF; /* Cambia el color del texto de la etiqueta al enfocar el input relacionado */
+  }
+  
+  /* Estilo para etiquetas label cuando el input tiene valor (no vacío) */
+  input:not(:placeholder-shown) + label {
+    color: #007BFF; /* Cambia el color del texto de la etiqueta cuando el input tiene valor */
+  }
+      
+  
+  
